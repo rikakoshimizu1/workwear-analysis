@@ -47,5 +47,13 @@ The model was trained using the `Adam` optimizer with `categorical_crossentropy`
 ## Analysis and Insights
 This project demonstrated the importance of **data preprocessing and classification design** when applying machine learning to a real-world problem. Converting the original Fashion MNIST categories into binary workwear classifications provided a way to apply image classification to a practical use case. Developing additional CNN-based classifiers also demonstrated how specialized models can provide more detailed information when broad categories are not sufficient for the classification task.
 
+## Future Improvements
+Potential extensions to the project include:
+ - Expanding the dataset beyond Fashion MNIST with real-world clothing images.
+ - Developing models to analyze text, logos, and graphics on clothing to identify potentially inappropriate or profane content.
+ - Increasing the number of clothing categories and classification criteria.
+ - Improving CNN performance through additional hyperparameter tuning.
+ - Developing an outfit recommendation system based on clothing classifications.
+
 ## About
 This project was developed as an **independent machine learning project** using Python and TensorFlow. The project serves as a foundation for a future **workwear outfit recommendation system** by first establishing clothing classification based on workwear suitability.
